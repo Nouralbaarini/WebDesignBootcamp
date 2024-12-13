@@ -1,0 +1,21 @@
+.content-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: #f9f9f9;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}

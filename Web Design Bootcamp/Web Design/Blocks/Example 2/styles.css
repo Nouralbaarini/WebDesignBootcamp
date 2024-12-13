@@ -1,0 +1,21 @@
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ddd;
+}

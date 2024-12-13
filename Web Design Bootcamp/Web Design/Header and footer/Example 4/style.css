@@ -1,0 +1,125 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(120deg, #ff7eb3, #ff758c);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header .header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header .cta-button {
+    background-color: white;
+    color: #ff758c;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+header .cta-button:hover {
+    transform: scale(1.1);
+    background-color: #ffeced;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main section h2 {
+    font-size: 1.8rem;
+    color: #ff758c;
+    margin-bottom: 10px;
+}
+
+main section p {
+    font-size: 1.1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer .social-icons {
+    margin-bottom: 20px;
+}
+
+footer .social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+footer form {
+    margin-bottom: 20px;
+}
+
+footer form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+footer form input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+footer form button {
+    padding: 10px 20px;
+    background-color: #ff758c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer form button:hover {
+    background-color: #ff5169;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #bbb;
+}

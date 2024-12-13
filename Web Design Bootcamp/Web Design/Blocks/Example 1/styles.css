@@ -1,0 +1,22 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f8f9fa;
+    gap: 20px;
+}
+
+.feature-item {
+    flex: 1;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
